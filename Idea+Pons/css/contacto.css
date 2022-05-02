@@ -1,0 +1,26 @@
+*{
+    margin: 3px;
+    padding: 3px;
+    font-size: 40px;
+    background-color: beige;
+    background-image: url(https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&w=1000&q=80);    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+ul{ list-style: none;
+
+}
+
+ul li{
+    display: inline;
+    padding-left: 40px;
+}
+.font-rem{
+    font-size: 6rem;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}

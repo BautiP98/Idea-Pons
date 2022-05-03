@@ -275,3 +275,18 @@ justify-content: space-around;}
 
      
     }
+    .conteiner > 
+    
+    .footer {
+        grid-column: 1/6;
+        color: wheat;
+      }
+      .conteiner > .header,
+.conteiner > .content,
+.conteiner > .sidebar,
+.conteiner > .footer,
+.conteiner > .div {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  border: 1px solid rgb(255, 255, 255);
+}

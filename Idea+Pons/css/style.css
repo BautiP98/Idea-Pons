@@ -213,14 +213,15 @@ justify-content: flex-end;
 
         }
         .grid-item2:hover{
-            transition-property all;
+            transition-property: all;
             transition-duration: 2s;
             transform: scale(1.5);
+        
 
         }
 
         .grid-item3:hover{
-            transition-property all;
+            transition-property: all;
             transition-duration: 2s;
             transform: scale(1.5);
 

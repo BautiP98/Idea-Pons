@@ -133,7 +133,9 @@ justify-content: space-around;}
     grid-area: footer;
     background-color: blanchedalmond;
 }
-
+.griditem2:hover{
+    transform: scale(1.5);
+}
 .grid-container{
     border: solid 4px #DD4A48;
     margin: 5px;
@@ -143,10 +145,45 @@ justify-content: space-around;}
     column-gap: 10px;
     row-gap: 30px;
 
+
+
     /* grid-template-columns: repeat(1 fr)*/;
 }
 
-.grid-item{
+.grid-containers{
+    border: solid 5px #DD4A48;
+    margin: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 30px;
+    border: solid 2px #97bfb4;
+    color: #DD4A48;
+font-size: 20px;
+background-color: #97bfb4;
+padding: 20px 0;
+display: flex;
+
+justify-content: flex-end;
+
+
+    background-color: #9654;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif ;
+    padding: 10px;
+    text-align: center;
+    background: rgb(38,38,38);
+    background: rgb(34,193,195);
+    background: rgb(205,161,78);
+    background: linear-gradient(0deg, rgba(205,161,78,1) 0%, rgba(242,206,22,1) 100%);
+
+    
+    
+
+    /* grid-template-columns: repeat(1 fr)*/;
+}
+.grid-item2{
     border: solid 2px #97bfb4;
 
     background-color: #9654;
@@ -154,18 +191,78 @@ justify-content: space-around;}
     font-family: Arial, Helvetica, sans-serif ;
     padding: 20px;
     text-align: center;
-}
+    background: rgb(38,38,38);
+    background: rgb(34,193,195);
+    background: rgb(205,161,78);
+    background: linear-gradient(0deg, rgba(205,161,78,1) 0%, rgba(242,206,22,1) 100%);} 
 
-.primer-item{
+    .grid-item3{
+        border: solid 2px #97bfb4;
+    
+        background-color: #9654;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif ;
+        padding: 20px;
+        text-align: center;
+        background: rgb(38,38,38);
+        background: rgb(34,193,195);
+        background: rgb(205,161,78);
+        background: linear-gradient(0deg, rgba(205,161,78,1) 0%, rgba(242,206,22,1) 100%);} 
+        .grid-item1:hover{
+            transform: scale(1.5);
+
+        }
+        .grid-item2:hover{
+            transition-property all;
+            transition-duration: 2s;
+            transform: scale(1.5);
+
+        }
+
+        .grid-item3:hover{
+            transition-property all;
+            transition-duration: 2s;
+            transform: scale(1.5);
+
+        }
+        .grid-item1{
+            transition-property all;
+            transition-duration: 2s;
+            border: solid 2px #97bfb4;
+        
+            background-color: #9654;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif ;
+            padding: 20px;
+            text-align: center;
+            background: rgb(38,38,38);
+            background: rgb(34,193,195);
+            background: rgb(205,161,78);
+            background: linear-gradient(0deg, rgba(205,161,78,1) 0%, rgba(242,206,22,1) 100%);} 
+        
+        
+
+    .primer-item{
+        border: solid 2px #97bfb4;
+        
+            background-color: #9654;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif ;
+            padding: 20px;
+            text-align: center;
+            background: rgb(38,38,38);
+            background: rgb(34,193,195);
+            background: rgb(205,161,78);
+            background: linear-gradient(0deg, rgba(205,161,78,1) 0%, rgba(242,206,22,1) 100%);
+     
     grid-column-start: 1 ;
     grid-column-end: 4 ;
 
     grid-row-start: 1;
     grid-row-end: 4;
 
-
-
 }
+
 
 @media only screen and (min-width:451px) and (max-width:960px) { 
     body{ background-color: rgb(155, 78, 206);
@@ -257,6 +354,7 @@ justify-content: space-around;}
     .galery-item{
         grid-column: span 1;
         grid-row: span 1;
+        padding: 15px;
     
     
     }
@@ -275,18 +373,4 @@ justify-content: space-around;}
 
      
     }
-    .conteiner > 
     
-    .footer {
-        grid-column: 1/6;
-        color: wheat;
-      }
-      .conteiner > .header,
-.conteiner > .content,
-.conteiner > .sidebar,
-.conteiner > .footer,
-.conteiner > .div {
-  background-color: rgb(0, 0, 0);
-  padding: 20px;
-  border: 1px solid rgb(255, 255, 255);
-}
